@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+}
+header,
+main {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#turnOn,
+#turnOff {
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  transition: 0.6s;
+}
+#turnOn {
+  background: gold;
+  color: black;
+}
+#turnOff {
+  background-color: #00192c;
+  color: white;
+}
+
+#turnOff:hover,
+#turnOn:hover {
+  letter-spacing: 1px;
+}
